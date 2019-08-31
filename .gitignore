@@ -2,9 +2,9 @@
 # Version 1
 
 #Unity's directories
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
+# /[Ll]ibrary/
+# /[Tt]emp/
+# /[Oo]bj/
 
 #Common's build directories
 /[iI][oO][sS]/
