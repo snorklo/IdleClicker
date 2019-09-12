@@ -98,7 +98,6 @@ public class GameManager : MonoBehaviour
 	private void Update()
 	{
 		BetterPen.interactable = money >= 30;
-
 		Assistants.interactable = money >= 100;
 	}
 
