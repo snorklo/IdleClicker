@@ -1,9 +1,5 @@
 ﻿namespace IdleClicker
 {
-
-
-
-
 	using System;
 	using System.Collections;
 	using System.Collections.Generic;
@@ -11,6 +7,28 @@
 
 	using UnityEngine;
 	using UnityEngine.UI;
+
+	public class BuyingMultiplier
+	{
+		public static BuyingMultiplier buyingMultiplier1 = new BuyingMultiplier(0, "1", 1);
+
+		public static BuyingMultiplier buyingMultiplier10 = new BuyingMultiplier(1, "10", 10);
+
+		public static BuyingMultiplier buyingMultiplier100 = new BuyingMultiplier(2, "100", 100);
+
+		public int MultiplierCounter { get; private set; }
+
+		public string MultiplierText { get; private set; }
+
+		public int MultiplierValue { get; private set; }
+
+		private BuyingMultiplier(int multiplierCounter, string multiplierText, int multiplierValue)
+		{
+			MultiplierCounter = multiplierCounter;
+			MultiplierText = multiplierText;
+			MultiplierValue = multiplierValue;
+		}
+	}
 
 	public class GameManager : MonoBehaviour
 	{
@@ -34,25 +52,6 @@
 
 		private double moneyFromClick;
 
-		//  
-		// 10^105 - Quattuortrigintillion
-		// 10^108 - Quintrigintillion
-		// 10^111 - Sextrigintillion
-		// 10^114 - Septentrigintillion
-		// 10^117 - Octotrigintillion
-		// 10^120 - Novemtrigintillion
-		//
-		// 10^123 - Quadragintillion
-		// 10^126 - Unquadragintillion
-		// Duoquadragintillion
-		//  Trequadragintillion
-		//  Quattuorquadragintillion
-		// Quinquadragintillion
-		// Sexquadragintillion
-		// Septenquadragintillion
-		// Octoquadragintillion
-		// Novemquadragintillion
-
 		private void Update()
 		{
 			betterPen.interactable = money >= 30;
@@ -65,12 +64,12 @@
 			while (money < 0)
 			{
 				money *= 1000;
-				 NumberFormatter.DecreaseCurrentMoneyExponentCounter();
+				NumberFormatter.DecreaseCurrentMoneyExponentCounter();
 			}
 
 			RefreshMoney();
 		}
-		
+
 		private void Start()
 		{
 			moneyFromClick = 1;
@@ -123,7 +122,7 @@
 		/// <summary>
 		/// 
 		/// </summary>
-		public void HireBetterPen()
+		public void GetBetterPen()
 		{
 			BuyForPrice(30);
 

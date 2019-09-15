@@ -9,7 +9,9 @@
       <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BuyingAssistansButton.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
+        <e p="IncreaseBuyingMultiplierButton.cs" t="Include" />
         <e p="NumberFormatter.cs" t="Include" />
       </e>
       <e p="IdleClicker.sln" t="IncludeFlat" />

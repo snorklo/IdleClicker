@@ -45,6 +45,25 @@ namespace IdleClicker
 			"Tretrigintillion"
 		};
 		
+		//  
+		// 10^105 - Quattuortrigintillion
+		// 10^108 - Quintrigintillion
+		// 10^111 - Sextrigintillion
+		// 10^114 - Septentrigintillion
+		// 10^117 - Octotrigintillion
+		// 10^120 - Novemtrigintillion
+		//
+		// 10^123 - Quadragintillion
+		// 10^126 - Unquadragintillion
+		// Duoquadragintillion
+		//  Trequadragintillion
+		//  Quattuorquadragintillion
+		// Quinquadragintillion
+		// Sexquadragintillion
+		// Septenquadragintillion
+		// Octoquadragintillion
+		// Novemquadragintillion
+		
 		private static string[] shortExponents =
 			{"", "k", "M", "B", "T", "Q", "aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh", "ii"};
 
