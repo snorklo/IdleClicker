@@ -16,12 +16,19 @@ namespace IdleClicker
 			BuyingMultiplier.buyingMultiplier100
 		};
 		
-		public Text buyingMultiplierText;
+		[SerializeField]
+		private Text buyingMultiplierText;
 
+		/// <summary>
+		/// 
+		/// </summary>
 		public event Action<int> MultiplierCounterIncreased;
 
 		// private string[] buyingMultipliers = {"1", "10", "100", "max"};
 		
+		/// <summary>
+		/// 
+		/// </summary>
 		public void IncreaseBuyingMultiplier()
 		{
 			buyingMultiplierCounter++;
