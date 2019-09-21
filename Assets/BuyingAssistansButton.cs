@@ -15,10 +15,25 @@ namespace IdleClicker
 
 		[SerializeField]
 		private double initialMoneyPerSecond;
+
+		[SerializeField]
+		private MoneyPanel moneyPanel;
+		
+		[SerializeField]
+		private Text priceText;
 			
+		[SerializeField]
+		private double moneyPerSecondFromOne;
+		
 		private double price;
 
+		private double moneyPerSecond;
+
 		private double amountToBuy;
+
+		private double asistantsOwned;
+
+		
 
 		/// <summary>
 		/// 
@@ -30,7 +45,15 @@ namespace IdleClicker
 		/// </summary>
 		public Button assistantsButton;
 
-		public event Action<double, double> BoughtForPrice;
+		/// <summary>
+		/// 
+		/// </summary>
+		public event Action<double> BoughtForPrice;
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public event Action<double> MpsIncreased;
 
 		private void OnEnable()
 		{
@@ -40,6 +63,8 @@ namespace IdleClicker
 		private void Start()
 		{
 			price = initialPrice;
+			moneyPerSecond = moneyPerSecondFromOne;
+			amountToBuy = 1;
 		}
 
 		private void OnDisable()
@@ -49,13 +74,15 @@ namespace IdleClicker
 
 		private void Update()
 		{
-			assistantsButton.interactable = moneyPanel.Money >= 100;
+			assistantsButton.interactable = moneyPanel.Money >= price;
 		}
 
 		private void OnMultiplierCounterIncreased(int value)
 		{
 			amountToBuy = value;
-			price *= price;
+			price = initialPrice * value;
+			moneyPerSecond = moneyPerSecondFromOne * value;
+			priceText.text = price + " L";
 		}
 
 		/// <summary>
@@ -64,9 +91,8 @@ namespace IdleClicker
 		public void Hire()
 		{
 			BuyForPrice(price);
-			IncreaseWindowClerksNumber(amountToBuy);
-			IncreaseMPS(10);
-			RefreshMPS();
+			IncreaseAssistantsAmount(amountToBuy);
+			IncreaseMps();
 		}
 
 		private void BuyForPrice(double price)
@@ -74,15 +100,16 @@ namespace IdleClicker
 			BoughtForPrice?.Invoke(price);
 		}
 
-		private void IncreaseMPS(double moneyPerSecond)
+		private void IncreaseMps()
 		{
-			
+			MpsIncreased?.Invoke(moneyPerSecond);
 		}
 
-		private void IncreaseWindowClerksNumber(double value)
+
+		private void IncreaseAssistantsAmount(double value)
 		{
-			windowClerksOwned += value;
-			assistantsOwnedText.text = NumberFormatter.FormatNumber(windowClerksOwned, 1, false);
+			asistantsOwned += value;
+			assistantsOwnedText.text = NumberFormatter.FormatNumber(asistantsOwned, 2, true);
 		}
 	}
 }

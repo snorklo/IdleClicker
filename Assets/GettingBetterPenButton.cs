@@ -5,6 +5,9 @@ namespace IdleClicker
 
 	public class GettingBetterPenButton : MonoBehaviour
 	{
+		[SerializeField]
+		private MoneyPanel moneyPanel;
+		
 		/// <summary>
 		/// 
 		/// </summary>
@@ -18,16 +21,21 @@ namespace IdleClicker
 		/// <summary>
 		/// 
 		/// </summary>
-		public void GetBetterPen()
-		{
-			BuyForPrice(30);
-			// IncreaseBetterPensNumber(1);
-			IncreaseMoneyFromClick(1);
-		}
+		// public void GetBetterPen()
+		// {
+		// 	BuyForPrice(30);
+		// 	// IncreaseBetterPensNumber(1);
+		// 	IncreaseMoneyFromClick(1);
+		// }
 		
-		private void IncreaseMoneyFromClick(double value)
-		{
-			moneyFromClick += value;
-		}
+		
+		//
+		// private void IncreaseMoneyFromClick(double value)
+		// {
+		// 	
+		// 	moneyFromClick += value;
+		// }
+		
+		
 	}
 }

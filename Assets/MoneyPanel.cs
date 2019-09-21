@@ -27,12 +27,18 @@ namespace IdleClicker
 		
 		private double moneyFromClick;
 
+		/// <summary>
+		/// 
+		/// </summary>
 		public double Money
 		{
 			get { return money; }
 			private set { money = value; }
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		public double MoneyPerSecond
 		{
 			get { return moneyPerSecond; }
@@ -41,7 +47,9 @@ namespace IdleClicker
 
 		private void OnEnable()
 		{
-			BoughtForPrice += SubstractMoneyAfterPurchase;
+			buyingWindowClerkButton.BoughtForPrice += SubstractMoneyAfterPurchase;
+			buyingWindowClerkButton.MpsIncreased += IncreaseMps;
+			Letter.LetterClicked += AddMoneyFromClick;
 		}
 
 		private void Start()
@@ -49,19 +57,26 @@ namespace IdleClicker
 			moneyFromClick = 1;
 			
 			RefreshMoney();
-			RefreshMPS();
+			RefreshMps();
 
 			StartCoroutine(IncreaseMoneyFromMoneyPerSecond());
 		}
 
 		private void OnDisable()
 		{
-			BoughtForPrice -= SubstractMoneyAfterPurchase;
+			buyingWindowClerkButton.BoughtForPrice -= SubstractMoneyAfterPurchase;
+			buyingWindowClerkButton.MpsIncreased -= IncreaseMps;
+			Letter.LetterClicked -= AddMoneyFromClick;
 		}
 		
-		public void IncreaseMPS(double value)
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="value"></param>
+		public void IncreaseMps(double value)
 		{
 			moneyPerSecond += value;
+			RefreshMps();
 		}
 		
 		private IEnumerator IncreaseMoneyFromMoneyPerSecond()
@@ -72,9 +87,10 @@ namespace IdleClicker
 				RefreshMoney();
 				yield return new WaitForSecondsRealtime(1f);
 			}
+			// ReSharper disable once IteratorNeverReturns
 		}
 		
-		private void SubstractMoneyAfterPurchase(double price, double moneyPerSecond)
+		private void SubstractMoneyAfterPurchase(double price)
 		{
 			money -= price;
 			while (money < 0)
@@ -86,16 +102,25 @@ namespace IdleClicker
 			RefreshMoney();
 		}
 		
+		/// <summary>
+		/// 
+		/// </summary>
 		public void RefreshMoney()
 		{
 			moneyText.text = "L " + NumberFormatter.FormatNumber(money, 3, true);
 		}
 
-		public void RefreshMPS()
+		/// <summary>
+		/// 
+		/// </summary>
+		public void RefreshMps()
 		{
 			moneyPerSecondText.text = "L / s " + NumberFormatter.FormatNumber(moneyPerSecond, 2, true);
 		}
 		
+		/// <summary>
+		/// 
+		/// </summary>
 		public void AddMoneyFromClick()
 		{
 			money += moneyFromClick;
