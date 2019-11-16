@@ -9,7 +9,7 @@ namespace IdleClicker
 	{
 		private int buyingMultiplierCounter;
 
-		private BuyingMultiplier[] buyingMultipliers =
+		private readonly BuyingMultiplier[] buyingMultipliers =
 		{
 			BuyingMultiplier.buyingMultiplier1,
 			BuyingMultiplier.buyingMultiplier10,
@@ -33,11 +33,8 @@ namespace IdleClicker
 		{
 			buyingMultiplierCounter++;
 			if (buyingMultiplierCounter >= buyingMultipliers.Length) buyingMultiplierCounter = 0;
-			buyingMultiplierText.text = string.Format(
-				"Buy × {0}",
-				buyingMultipliers[buyingMultiplierCounter].MultiplierText);
-			if (MultiplierCounterIncreased != null)
-				MultiplierCounterIncreased(buyingMultipliers[buyingMultiplierCounter].MultiplierValue);
+			buyingMultiplierText.text = $"Buy × {buyingMultipliers[buyingMultiplierCounter].MultiplierText}";
+			MultiplierCounterIncreased?.Invoke(buyingMultipliers[buyingMultiplierCounter].MultiplierValue);
 		}
 	}
 }

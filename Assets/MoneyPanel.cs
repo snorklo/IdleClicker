@@ -17,14 +17,14 @@ namespace IdleClicker
 		/// 
 		/// </summary>
 		public Text moneyPerSecondText;
-		
+
 		[SerializeField]
 		private BuyingAssistansButton buyingWindowClerkButton;
-		
+
 		private double money;
 
 		private double moneyPerSecond;
-		
+
 		private double moneyFromClick;
 
 		/// <summary>
@@ -55,7 +55,7 @@ namespace IdleClicker
 		private void Start()
 		{
 			moneyFromClick = 1;
-			
+
 			RefreshMoney();
 			RefreshMps();
 
@@ -68,7 +68,7 @@ namespace IdleClicker
 			buyingWindowClerkButton.MpsIncreased -= IncreaseMps;
 			Letter.LetterClicked -= AddMoneyFromClick;
 		}
-		
+
 		/// <summary>
 		/// 
 		/// </summary>
@@ -78,7 +78,7 @@ namespace IdleClicker
 			moneyPerSecond += value;
 			RefreshMps();
 		}
-		
+
 		private IEnumerator IncreaseMoneyFromMoneyPerSecond()
 		{
 			while (true)
@@ -87,9 +87,10 @@ namespace IdleClicker
 				RefreshMoney();
 				yield return new WaitForSecondsRealtime(1f);
 			}
+
 			// ReSharper disable once IteratorNeverReturns
 		}
-		
+
 		private void SubstractMoneyAfterPurchase(double price)
 		{
 			money -= price;
@@ -101,13 +102,13 @@ namespace IdleClicker
 
 			RefreshMoney();
 		}
-		
+
 		/// <summary>
 		/// 
 		/// </summary>
 		public void RefreshMoney()
 		{
-			moneyText.text = "L " + NumberFormatter.FormatNumber(money, 3, true);
+			moneyText.text = $"L {NumberFormatter.FormatNumber(money, 3, true)}";
 		}
 
 		/// <summary>
@@ -115,9 +116,9 @@ namespace IdleClicker
 		/// </summary>
 		public void RefreshMps()
 		{
-			moneyPerSecondText.text = "L / s " + NumberFormatter.FormatNumber(moneyPerSecond, 2, true);
+			moneyPerSecondText.text = $"L / s {NumberFormatter.FormatNumber(moneyPerSecond, 2, true)}";
 		}
-		
+
 		/// <summary>
 		/// 
 		/// </summary>

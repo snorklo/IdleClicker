@@ -18,13 +18,13 @@ namespace IdleClicker
 
 		[SerializeField]
 		private MoneyPanel moneyPanel;
-		
+
 		[SerializeField]
 		private Text priceText;
-			
+
 		[SerializeField]
 		private double moneyPerSecondFromOne;
-		
+
 		private double price;
 
 		private double moneyPerSecond;
@@ -32,8 +32,6 @@ namespace IdleClicker
 		private double amountToBuy;
 
 		private double asistantsOwned;
-
-		
 
 		/// <summary>
 		/// 
@@ -82,7 +80,7 @@ namespace IdleClicker
 			amountToBuy = value;
 			price = initialPrice * value;
 			moneyPerSecond = moneyPerSecondFromOne * value;
-			priceText.text = price + " L";
+			priceText.text = $"{price} L";
 		}
 
 		/// <summary>
@@ -104,7 +102,6 @@ namespace IdleClicker
 		{
 			MpsIncreased?.Invoke(moneyPerSecond);
 		}
-
 
 		private void IncreaseAssistantsAmount(double value)
 		{
