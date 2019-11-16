@@ -7,49 +7,26 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 
-/// </summary>
-public class Assistant
-{
-    private string id;
-    private double initialPrice;
-
-
-    public string Id
-    {
-        get => id;
-        internal set => id = value;
-    }
-   
-
-    private double initialMoneyPerSecond;
-
-    private double moneyPerSecondFromOne;
-
-    private double price;
-
-    private double moneyPerSecond;
-
-    private double amountToBuy;
-
-    private double assistantsOwned;
-    
-    
-
- 
-}
-
-/// <summary>
-/// Manages data about all assistans.
+/// Manages data about all assistants.
 /// </summary>
 public class AssistantsController
 {
-    private List<Assistant> assistants = new List<Assistant>();
-    Assistant a1 = new Assistant();
+    private int assistantsAmount = 5;
+    
+    private List<AssistantsGroup> assistants = new List<AssistantsGroup>();
+
+    private List<string> ids = new List<string>
+    {
+        "windowClerk", "expeditionWorker", "postman", "motorVehicleOperator", "shiftSupervisor"
+    };
+
+    private bool isInitialized;
 
     private void Initialize()
     {
-        a1.Id
+        if (isInitialized) return;
+        
+        
     }
     
 }
