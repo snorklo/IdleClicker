@@ -1,32 +1,37 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-
-using UnityEngine;
-
-/// <summary>
-/// Manages data about all assistants.
-/// </summary>
-public class AssistantsController
+﻿namespace IdleClicker
 {
-    private int assistantsAmount = 5;
-    
-    private List<AssistantsGroup> assistants = new List<AssistantsGroup>();
+    using System.Collections;
+    using System.Collections.Generic;
 
-    private List<string> ids = new List<string>
+    using UnityEngine;
+
+    using System.Collections;
+    using System.Collections.Generic;
+
+    using UnityEngine;
+
+    /// <summary>
+    /// Manages data about all assistants.
+    /// </summary>
+    public class AssistantsController
     {
-        "windowClerk", "expeditionWorker", "postman", "motorVehicleOperator", "shiftSupervisor"
-    };
+        private int assistantsAmount = 5;
 
-    private bool isInitialized;
+        private List<AssistantsGroup> assistants = new List<AssistantsGroup>();
 
-    private void Initialize()
-    {
-        if (isInitialized) return;
-        
-        
+        private List<string> ids = new List<string>
+        {
+            "windowClerk", "expeditionWorker", "postman", "motorVehicleOperator", "shiftSupervisor"
+        };
+
+        private bool isInitialized;
+
+        private void Initialize()
+        {
+            if (isInitialized) return;
+
+
+        }
+
     }
-    
 }

@@ -15,6 +15,7 @@
         <e p="BuyingMultiplier.cs" t="Include" />
         <e p="GettingBetterPenButton.cs" t="Include" />
         <e p="IncreaseBuyingMultiplierButton.cs" t="Include" />
+        <e p="Initializer.cs" t="Include" />
         <e p="Letter.cs" t="Include" />
         <e p="MoneyPanel.cs" t="Include" />
         <e p="NumberFormatter.cs" t="Include" />
