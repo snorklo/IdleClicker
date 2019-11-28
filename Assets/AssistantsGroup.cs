@@ -7,7 +7,7 @@
 	/// </summary>
 	public class AssistantsGroup
 	{
-		private string id;
+		private int id;
 
 		private string name;
 
@@ -24,18 +24,39 @@
 		private double moneyPerSecond;
 
 		/// <summary>
+		/// Constructor
+		/// </summary>
+		/// <param name="id"></param>
+		/// <param name="name"></param>
+		/// <param name="assistantsOwned"></param>
+		/// <param name="initialPrice"></param>
+		/// <param name="moneyPerSecondFromOne"></param>
+		/// <param name="priceForOne"></param>
+		/// <param name="price"></param>
+		/// <param name="moneyPerSecond"></param>
+		public AssistantsGroup(
+			int id,
+			string name,
+			int assistantsOwned,
+			double initialPrice,
+			double moneyPerSecondFromOne)
+		{
+			this.id = id;
+			this.name = name;
+			this.assistantsOwned = assistantsOwned;
+			this.initialPrice = initialPrice;
+			this.moneyPerSecondFromOne = moneyPerSecondFromOne;
+		}
+
+		/// <summary>
 		/// Id of the assistant group, used to identify it.
 		/// </summary>
-		public string Id
+		public int Id
 		{
 			get => id;
 			internal set
 			{
-				if (!string.IsNullOrEmpty(value)) id = value;
-				else
-					Debug.LogError(
-						"You're trying to set id in one of the AssistantsGroup: " +
-						" to an empty or null value.");
+				id = value;
 			}
 		}
 

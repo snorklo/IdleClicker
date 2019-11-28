@@ -1,6 +1,7 @@
 namespace IdleClicker
 {
 	using System;
+	using System.Linq;
 
 	using UnityEngine;
 	using UnityEngine.UI;
@@ -8,21 +9,36 @@ namespace IdleClicker
 	public class BuyingAssistansButton : MonoBehaviour
 	{
 		[SerializeField]
+		private int assistantsGroupId;
+
+		public int AssistantsGroupId
+		{
+			get => assistantsGroupId;
+			set
+			{
+				if ((value >= 0) && (value <= AssistantsController.AssistantsGroupsAmount)) assistantsGroupId = value;
+				else
+				{
+					Debug.Log(
+						$"You're trying to assign 'assistantsGroupId' to '{value}'. That " +
+						"is not in scope of 'AssistantsController.AssistantsGroupsAmount'");
+				}
+			}
+		}
+
+		[SerializeField]
 		private IncreaseBuyingMultiplierButton increaseBuyingMultiplierButton;
 
-		[SerializeField]
+		private AssistantsGroup assistantsGroup;
+
 		private double initialPrice;
 
-		[SerializeField]
 		private double initialMoneyPerSecond;
 
-		[SerializeField]
 		private MoneyPanel moneyPanel;
 
-		[SerializeField]
 		private Text priceText;
 
-		[SerializeField]
 		private double moneyPerSecondFromOne;
 
 		private double price;
@@ -44,18 +60,24 @@ namespace IdleClicker
 		public Button assistantsButton;
 
 		/// <summary>
-		/// 
+		/// Assistants were bought for price.
 		/// </summary>
 		public event Action<double> BoughtForPrice;
 
 		/// <summary>
-		/// 
+		/// Money per second increased.
 		/// </summary>
 		public event Action<double> MpsIncreased;
 
 		private void OnEnable()
 		{
+			// todo: find increase buying multiplier button
 			increaseBuyingMultiplierButton.MultiplierCounterIncreased += OnMultiplierCounterIncreased;
+		}
+
+		private void Awake()
+		{
+			AssignInitialValues();
 		}
 
 		private void Start()
@@ -73,6 +95,25 @@ namespace IdleClicker
 		private void Update()
 		{
 			assistantsButton.interactable = moneyPanel.Money >= price;
+		}
+
+		private void AssignInitialValues()
+		{
+			assistantsGroup = Initializer.AssistantsController.Assistants.Any(aG => aG.Id == assistantsGroupId)
+				? Initializer.AssistantsController.Assistants.FirstOrDefault(
+					aG => aG.Id == assistantsGroupId)
+				: null;
+			if (assistantsGroup == null)
+			{
+				Debug.LogWarning("assistantsGroup for button with 'assistantsGroupId' id is null.");
+				return;
+			}
+
+			initialPrice = assistantsGroup.InitialPrice;
+			price = assistantsGroup.Price;
+			moneyPerSecondFromOne = assistantsGroup.MoneyPerSecondFromOne;
+			moneyPerSecond = assistantsGroup.MoneyPerSecond;
+			asistantsOwned = assistantsGroup.AssistantsOwned;
 		}
 
 		private void OnMultiplierCounterIncreased(int value)

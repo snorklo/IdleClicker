@@ -5,6 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IdleClicker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IdleClicker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssistantsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssistantsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssistantsGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssistantsGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Initializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/envelope-158279_1280.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/envelope-158279_1280.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,63 +27,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GettingBetterPenButton.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/AssistantsController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="-400">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
-                <marker date="1569092812590" expanded="true" signature="21:642" ph="{...}" />
-                <marker date="1569092812590" expanded="false" signature="31:66" ph="..." />
-                <marker date="1569092812590" expanded="true" signature="120:640" ph="{...}" />
-                <marker date="1569092812590" expanded="true" signature="181:218" ph="///  ... " />
-                <marker date="1569092812590" expanded="true" signature="272:332" ph="{...}" />
-                <marker date="1569092812590" expanded="true" signature="336:513" ph="/*  ... */" />
-                <marker date="1569092812590" expanded="true" signature="522:631" ph="/* private void IncreaseMoneyFromClick(double value) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <marker date="1573925530492" expanded="true" signature="21:2124" ph="{...}" />
-                <marker date="1573925530492" expanded="false" signature="31:82" ph="..." />
-                <marker date="1573925530492" expanded="true" signature="135:2122" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="628:665" ph="///  ... " />
-                <marker date="1573925530492" expanded="true" signature="704:741" ph="///  ... " />
-                <marker date="1573925530492" expanded="true" signature="779:816" ph="///  ... " />
-                <marker date="1573925530492" expanded="true" signature="866:903" ph="///  ... " />
-                <marker date="1573925530492" expanded="true" signature="974:1076" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1100:1196" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1224:1326" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1351:1421" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1477:1627" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1631:1668" ph="///  ... " />
-                <marker date="1573925530492" expanded="true" signature="1689:1780" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1822:1864" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1894:1943" ph="{...}" />
-                <marker date="1573925530492" expanded="true" signature="1998:2119" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="21:1308" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="31:190" ph="..." />
+                <marker date="1574968391322" expanded="true" signature="193:262" ph="/// Manages data about all assistants. ... " />
+                <marker date="1574968391322" expanded="true" signature="297:1306" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="402:444" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="562:622" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="674:775" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="836:873" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="943:975" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="1036:1303" ph="{...}" />
+                <marker date="1574968391322" expanded="true" signature="1123:1299" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/AssistantsController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="199">
+              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
               <folding>
-                <marker date="1574007275871" expanded="true" signature="21:772" ph="{...}" />
-                <marker date="1574007275871" expanded="true" signature="34:208" ph="..." />
-                <marker date="1574007275871" expanded="true" signature="214:289" ph="/// Manages data about all assistants. ... " />
-                <marker date="1574007275871" expanded="true" signature="327:770" ph="{...}" />
-                <marker date="1574007275871" expanded="true" signature="518:629" ph="{...}" />
-                <marker date="1574007275871" expanded="true" signature="702:763" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="21:3330" ph="{...}" />
+                <marker date="1574968727144" expanded="false" signature="31:102" ph="..." />
+                <marker date="1574968727144" expanded="true" signature="155:3328" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="242:590" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="282:586" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="403:581" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="1030:1067" ph="///  ... " />
+                <marker date="1574968727144" expanded="true" signature="1106:1143" ph="///  ... " />
+                <marker date="1574968727144" expanded="true" signature="1181:1251" ph="///  ... " />
+                <marker date="1574968727144" expanded="true" signature="1301:1365" ph="///  ... " />
+                <marker date="1574968727144" expanded="true" signature="1436:1615" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="1653:2278" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="1909:2020" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="2306:2402" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="2430:2532" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="2557:2627" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="2683:2833" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="2837:2874" ph="///  ... " />
+                <marker date="1574968727144" expanded="true" signature="2895:2986" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="3028:3070" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="3100:3149" ph="{...}" />
+                <marker date="1574968727144" expanded="true" signature="3204:3325" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,12 +84,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Initializer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="129">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding>
-                <marker date="1574007374770" expanded="true" signature="21:286" ph="{...}" />
-                <marker date="1574007374770" expanded="true" signature="56:284" ph="{...}" />
-                <marker date="1574007374770" expanded="true" signature="181:281" ph="{...}" />
+                <marker date="1574967674215" expanded="true" signature="21:407" ph="{...}" />
+                <marker date="1574967674215" expanded="true" signature="56:405" ph="{...}" />
+                <marker date="1574967674215" expanded="true" signature="216:256" ph="{...}" />
+                <marker date="1574967674215" expanded="true" signature="280:402" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,36 +99,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AssistantsGroup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
-                <marker date="1574007292396" expanded="true" signature="21:3437" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="46:153" ph="/// Single group of assistants. One group represents one type of assistants. ... " />
-                <marker date="1574007292396" expanded="true" signature="183:3435" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="430:514" ph="/// Id of the assistant group, used to identify it. ... " />
-                <marker date="1574007292396" expanded="true" signature="533:765" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="567:761" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="769:852" ph="/// Name that will be displayed on Text component. ... " />
-                <marker date="1574007292396" expanded="true" signature="873:1126" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="917:1122" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="1130:1214" ph="/// Initial price of one assistant, on first level. ... " />
-                <marker date="1574007292396" expanded="true" signature="1243:1500" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="1287:1496" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="1504:1605" ph="/// Current money per second earned from one assistant of this type. ... " />
-                <marker date="1574007292396" expanded="true" signature="1643:1919" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="1696:1915" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="1923:1992" ph="/// Current price for one assistant. ... " />
-                <marker date="1574007292396" expanded="true" signature="2020:2274" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="2063:2270" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="2278:2417" ph="/// Current price for assistants to buy. Depends on how many assistants are chosen (with a button) to buy. ... " />
-                <marker date="1574007292396" expanded="true" signature="2439:2675" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="2476:2671" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="2679:2764" ph="/// How many assistants of this group are now owned. ... " />
-                <marker date="1574007292396" expanded="true" signature="2793:3051" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="2840:3047" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="3055:3145" ph="/// How much money per second this group earns right now. ... " />
-                <marker date="1574007292396" expanded="true" signature="3176:3432" ph="{...}" />
-                <marker date="1574007292396" expanded="true" signature="3223:3428" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="21:3954" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="46:153" ph="/// Single group of assistants. One group represents one type of assistants. ... " />
+                <marker date="1574968214533" expanded="true" signature="183:3952" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="427:799" ph="///  ... " />
+                <marker date="1574968214533" expanded="true" signature="933:1114" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="1118:1202" ph="/// Id of the assistant group, used to identify it. ... " />
+                <marker date="1574968214533" expanded="true" signature="1218:1282" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="1252:1278" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="1286:1369" ph="/// Name that will be displayed on Text component. ... " />
+                <marker date="1574968214533" expanded="true" signature="1390:1643" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="1434:1639" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="1647:1731" ph="/// Initial price of one assistant, on first level. ... " />
+                <marker date="1574968214533" expanded="true" signature="1760:2017" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="1804:2013" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="2021:2122" ph="/// Current money per second earned from one assistant of this type. ... " />
+                <marker date="1574968214533" expanded="true" signature="2160:2436" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="2213:2432" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="2440:2509" ph="/// Current price for one assistant. ... " />
+                <marker date="1574968214533" expanded="true" signature="2537:2791" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="2580:2787" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="2795:2934" ph="/// Current price for assistants to buy. Depends on how many assistants are chosen (with a button) to buy. ... " />
+                <marker date="1574968214533" expanded="true" signature="2956:3192" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="2993:3188" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="3196:3281" ph="/// How many assistants of this group are now owned. ... " />
+                <marker date="1574968214533" expanded="true" signature="3310:3568" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="3357:3564" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="3572:3662" ph="/// How much money per second this group earns right now. ... " />
+                <marker date="1574968214533" expanded="true" signature="3693:3949" ph="{...}" />
+                <marker date="1574968214533" expanded="true" signature="3740:3945" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -135,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IncreaseBuyingMultiplierButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="19">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <marker date="1573925577848" expanded="true" signature="21:1014" ph="{...}" />
                 <marker date="1573925577848" expanded="false" signature="31:82" ph="..." />
@@ -145,43 +149,6 @@
                 <marker date="1573925577848" expanded="true" signature="436:473" ph="///  ... " />
                 <marker date="1573925577848" expanded="true" signature="604:641" ph="///  ... " />
                 <marker date="1573925577848" expanded="true" signature="682:1009" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Letter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding>
-                <marker date="1573925586346" expanded="true" signature="21:294" ph="{...}" />
-                <marker date="1573925586346" expanded="false" signature="31:59" ph="..." />
-                <marker date="1573925586346" expanded="true" signature="97:292" ph="{...}" />
-                <marker date="1573925586346" expanded="true" signature="103:140" ph="///  ... " />
-                <marker date="1573925586346" expanded="true" signature="188:225" ph="///  ... " />
-                <marker date="1573925586346" expanded="true" signature="253:289" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NumberFormatter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-              <folding>
-                <marker date="1568551667180" expanded="true" signature="21:3130" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="60:3128" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="208:893" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="900:1385" ph="/* 10^105 - Quattuortrigintillion ... */" />
-                <marker date="1568551667180" expanded="true" signature="1579:1621" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="1681:1723" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="1812:3125" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="1875:2001" ph="{...}" />
-                <marker date="1568551667180" expanded="true" signature="2048:2858" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -198,6 +165,9 @@
       <find>onmu</find>
       <find>buyfor</find>
       <find>L /</find>
+      <find>increaseBuyingMultiplierButton</find>
+      <find>OnMultiplierCounterIncreased</find>
+      <find>AssistantsGroup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,23 +194,23 @@
         <option value="$PROJECT_DIR$/Assets/BuyingMultiplier.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GettingBetterPenButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" />
         <option value="$PROJECT_DIR$/Assets/IncreaseBuyingMultiplierButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Letter.cs" />
         <option value="$PROJECT_DIR$/Assets/MoneyPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Assistant.cs" />
         <option value="$PROJECT_DIR$/Assets/AssistantType.cs" />
         <option value="$PROJECT_DIR$/Assets/AssistantGroup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Initializer.cs" />
         <option value="$PROJECT_DIR$/Assets/AssistantsController.cs" />
         <option value="$PROJECT_DIR$/Assets/AssistantsGroup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Initializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="56" />
     <option name="y" value="23" />
-    <option name="width" value="1386" />
+    <option name="width" value="1384" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -248,6 +218,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -261,11 +235,7 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,14 +292,15 @@
       <workItem from="1568562236936" duration="103000" />
       <workItem from="1569088949162" duration="3566000" />
       <workItem from="1573925379831" duration="9197000" />
-      <workItem from="1574006377242" duration="835000" />
+      <workItem from="1574006377242" duration="1002000" />
+      <workItem from="1574965624700" duration="2920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31692000" />
+    <option name="totallyTimeSpent" value="34779000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -339,10 +310,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1386" height="877" extended-state="0" />
+    <frame x="56" y="23" width="1384" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.2872024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.29135618" />
       <window_info id="Structure" order="1" sideWeight="0.502008" side_tool="true" weight="0.24962519" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -359,9 +330,9 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Unity" order="14" />
+      <window_info anchor="bottom" id="Unity" order="14" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,42 +355,16 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs</url>
-          <line>81</line>
+          <line>120</line>
           <properties documentPath="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" initialLine="81">
             <startOffsets>
-              <option value="1542" />
+              <option value="2748" />
             </startOffsets>
             <endOffsets>
-              <option value="1589" />
+              <option value="2795" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs</url>
-          <line>92</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" initialLine="92">
-            <startOffsets>
-              <option value="1762" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1776" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs</url>
-          <line>102</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/BuyingAssistansButton.cs" initialLine="102">
-            <startOffsets>
-              <option value="1902" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1939" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/MoneyPanel.cs</url>
@@ -533,25 +478,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/IncreaseBuyingMultiplierButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <marker date="1573925577848" expanded="true" signature="21:1014" ph="{...}" />
-            <marker date="1573925577848" expanded="false" signature="31:82" ph="..." />
-            <marker date="1573925577848" expanded="true" signature="144:1012" ph="{...}" />
-            <marker date="1573925577848" expanded="true" signature="248:372" ph="{...}" />
-            <marker date="1573925577848" expanded="true" signature="436:473" ph="///  ... " />
-            <marker date="1573925577848" expanded="true" signature="604:641" ph="///  ... " />
-            <marker date="1573925577848" expanded="true" signature="682:1009" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Letter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="161">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <marker date="1573925586346" expanded="true" signature="21:294" ph="{...}" />
@@ -566,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NumberFormatter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="340">
+          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
           <folding>
             <marker date="1568551667180" expanded="true" signature="21:3130" ph="{...}" />
             <marker date="1568551667180" expanded="true" signature="60:3128" ph="{...}" />
@@ -582,91 +511,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/IncreaseBuyingMultiplierButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="19">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1573925530492" expanded="true" signature="21:2124" ph="{...}" />
-            <marker date="1573925530492" expanded="false" signature="31:82" ph="..." />
-            <marker date="1573925530492" expanded="true" signature="135:2122" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="628:665" ph="///  ... " />
-            <marker date="1573925530492" expanded="true" signature="704:741" ph="///  ... " />
-            <marker date="1573925530492" expanded="true" signature="779:816" ph="///  ... " />
-            <marker date="1573925530492" expanded="true" signature="866:903" ph="///  ... " />
-            <marker date="1573925530492" expanded="true" signature="974:1076" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1100:1196" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1224:1326" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1351:1421" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1477:1627" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1631:1668" ph="///  ... " />
-            <marker date="1573925530492" expanded="true" signature="1689:1780" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1822:1864" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1894:1943" ph="{...}" />
-            <marker date="1573925530492" expanded="true" signature="1998:2119" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AssistantsGroup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
-          <folding>
-            <marker date="1574007292396" expanded="true" signature="21:3437" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="46:153" ph="/// Single group of assistants. One group represents one type of assistants. ... " />
-            <marker date="1574007292396" expanded="true" signature="183:3435" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="430:514" ph="/// Id of the assistant group, used to identify it. ... " />
-            <marker date="1574007292396" expanded="true" signature="533:765" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="567:761" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="769:852" ph="/// Name that will be displayed on Text component. ... " />
-            <marker date="1574007292396" expanded="true" signature="873:1126" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="917:1122" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="1130:1214" ph="/// Initial price of one assistant, on first level. ... " />
-            <marker date="1574007292396" expanded="true" signature="1243:1500" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="1287:1496" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="1504:1605" ph="/// Current money per second earned from one assistant of this type. ... " />
-            <marker date="1574007292396" expanded="true" signature="1643:1919" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="1696:1915" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="1923:1992" ph="/// Current price for one assistant. ... " />
-            <marker date="1574007292396" expanded="true" signature="2020:2274" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="2063:2270" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="2278:2417" ph="/// Current price for assistants to buy. Depends on how many assistants are chosen (with a button) to buy. ... " />
-            <marker date="1574007292396" expanded="true" signature="2439:2675" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="2476:2671" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="2679:2764" ph="/// How many assistants of this group are now owned. ... " />
-            <marker date="1574007292396" expanded="true" signature="2793:3051" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="2840:3047" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="3055:3145" ph="/// How much money per second this group earns right now. ... " />
-            <marker date="1574007292396" expanded="true" signature="3176:3432" ph="{...}" />
-            <marker date="1574007292396" expanded="true" signature="3223:3428" ph="{...}" />
+            <marker date="1573925577848" expanded="true" signature="21:1014" ph="{...}" />
+            <marker date="1573925577848" expanded="false" signature="31:82" ph="..." />
+            <marker date="1573925577848" expanded="true" signature="144:1012" ph="{...}" />
+            <marker date="1573925577848" expanded="true" signature="248:372" ph="{...}" />
+            <marker date="1573925577848" expanded="true" signature="436:473" ph="///  ... " />
+            <marker date="1573925577848" expanded="true" signature="604:641" ph="///  ... " />
+            <marker date="1573925577848" expanded="true" signature="682:1009" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Initializer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="129">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
-            <marker date="1574007374770" expanded="true" signature="21:286" ph="{...}" />
-            <marker date="1574007374770" expanded="true" signature="56:284" ph="{...}" />
-            <marker date="1574007374770" expanded="true" signature="181:281" ph="{...}" />
+            <marker date="1574967674215" expanded="true" signature="21:407" ph="{...}" />
+            <marker date="1574967674215" expanded="true" signature="56:405" ph="{...}" />
+            <marker date="1574967674215" expanded="true" signature="216:256" ph="{...}" />
+            <marker date="1574967674215" expanded="true" signature="280:402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AssistantsGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <marker date="1574968214533" expanded="true" signature="21:3954" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="46:153" ph="/// Single group of assistants. One group represents one type of assistants. ... " />
+            <marker date="1574968214533" expanded="true" signature="183:3952" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="427:799" ph="///  ... " />
+            <marker date="1574968214533" expanded="true" signature="933:1114" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="1118:1202" ph="/// Id of the assistant group, used to identify it. ... " />
+            <marker date="1574968214533" expanded="true" signature="1218:1282" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="1252:1278" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="1286:1369" ph="/// Name that will be displayed on Text component. ... " />
+            <marker date="1574968214533" expanded="true" signature="1390:1643" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="1434:1639" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="1647:1731" ph="/// Initial price of one assistant, on first level. ... " />
+            <marker date="1574968214533" expanded="true" signature="1760:2017" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="1804:2013" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="2021:2122" ph="/// Current money per second earned from one assistant of this type. ... " />
+            <marker date="1574968214533" expanded="true" signature="2160:2436" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="2213:2432" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="2440:2509" ph="/// Current price for one assistant. ... " />
+            <marker date="1574968214533" expanded="true" signature="2537:2791" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="2580:2787" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="2795:2934" ph="/// Current price for assistants to buy. Depends on how many assistants are chosen (with a button) to buy. ... " />
+            <marker date="1574968214533" expanded="true" signature="2956:3192" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="2993:3188" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="3196:3281" ph="/// How many assistants of this group are now owned. ... " />
+            <marker date="1574968214533" expanded="true" signature="3310:3568" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="3357:3564" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="3572:3662" ph="/// How much money per second this group earns right now. ... " />
+            <marker date="1574968214533" expanded="true" signature="3693:3949" ph="{...}" />
+            <marker date="1574968214533" expanded="true" signature="3740:3945" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AssistantsController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="-400">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
-            <marker date="1574007275871" expanded="true" signature="21:772" ph="{...}" />
-            <marker date="1574007275871" expanded="true" signature="34:208" ph="..." />
-            <marker date="1574007275871" expanded="true" signature="214:289" ph="/// Manages data about all assistants. ... " />
-            <marker date="1574007275871" expanded="true" signature="327:770" ph="{...}" />
-            <marker date="1574007275871" expanded="true" signature="518:629" ph="{...}" />
-            <marker date="1574007275871" expanded="true" signature="702:763" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="21:1308" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="31:190" ph="..." />
+            <marker date="1574968391322" expanded="true" signature="193:262" ph="/// Manages data about all assistants. ... " />
+            <marker date="1574968391322" expanded="true" signature="297:1306" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="402:444" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="562:622" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="674:775" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="836:873" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="943:975" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="1036:1303" ph="{...}" />
+            <marker date="1574968391322" expanded="true" signature="1123:1299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BuyingAssistansButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+          <folding>
+            <marker date="1574968727144" expanded="true" signature="21:3330" ph="{...}" />
+            <marker date="1574968727144" expanded="false" signature="31:102" ph="..." />
+            <marker date="1574968727144" expanded="true" signature="155:3328" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="242:590" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="282:586" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="403:581" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="1030:1067" ph="///  ... " />
+            <marker date="1574968727144" expanded="true" signature="1106:1143" ph="///  ... " />
+            <marker date="1574968727144" expanded="true" signature="1181:1251" ph="///  ... " />
+            <marker date="1574968727144" expanded="true" signature="1301:1365" ph="///  ... " />
+            <marker date="1574968727144" expanded="true" signature="1436:1615" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="1653:2278" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="1909:2020" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="2306:2402" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="2430:2532" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="2557:2627" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="2683:2833" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="2837:2874" ph="///  ... " />
+            <marker date="1574968727144" expanded="true" signature="2895:2986" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="3028:3070" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="3100:3149" ph="{...}" />
+            <marker date="1574968727144" expanded="true" signature="3204:3325" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -475,7 +475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.47675177}
   m_AnchorMax: {x: 1, y: 0.651}
-  m_AnchoredPosition: {x: 0, y: -89.958}
+  m_AnchoredPosition: {x: 0, y: -84.812}
   m_SizeDelta: {x: -11, y: 0.000011444092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248797201
@@ -490,12 +490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5b67ecd64a44f285a940ea7cc23460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assistantsGroupId: 4
   increaseBuyingMultiplierButton: {fileID: 1452253913}
-  initialPrice: 100000
-  initialMoneyPerSecond: 0
-  moneyPanel: {fileID: 744324700}
-  priceText: {fileID: 2084781948}
-  moneyPerSecondFromOne: 100000
   assistantsOwnedText: {fileID: 958564255}
   assistantsButton: {fileID: 248797202}
 --- !u!114 &248797202
@@ -817,12 +813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5b67ecd64a44f285a940ea7cc23460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assistantsGroupId: 0
   increaseBuyingMultiplierButton: {fileID: 1452253913}
-  initialPrice: 10
-  initialMoneyPerSecond: 0
-  moneyPanel: {fileID: 744324700}
-  priceText: {fileID: 1553742638}
-  moneyPerSecondFromOne: 10
   assistantsOwnedText: {fileID: 267187757}
   assistantsButton: {fileID: 419719438}
 --- !u!1 &461226844
@@ -879,12 +871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5b67ecd64a44f285a940ea7cc23460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assistantsGroupId: 1
   increaseBuyingMultiplierButton: {fileID: 1452253913}
-  initialPrice: 100
-  initialMoneyPerSecond: 0
-  moneyPanel: {fileID: 744324700}
-  priceText: {fileID: 1299521081}
-  moneyPerSecondFromOne: 100
   assistantsOwnedText: {fileID: 231033718}
   assistantsButton: {fileID: 461226847}
 --- !u!114 &461226847
@@ -1524,12 +1512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5b67ecd64a44f285a940ea7cc23460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assistantsGroupId: 2
   increaseBuyingMultiplierButton: {fileID: 1452253913}
-  initialPrice: 1000
-  initialMoneyPerSecond: 0
-  moneyPanel: {fileID: 744324700}
-  priceText: {fileID: 485382691}
-  moneyPerSecondFromOne: 1000
   assistantsOwnedText: {fileID: 24415403}
   assistantsButton: {fileID: 967084244}
 --- !u!114 &967084244
@@ -2694,7 +2678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.47675177}
   m_AnchorMax: {x: 1, y: 0.651}
-  m_AnchoredPosition: {x: 0, y: -45.001}
+  m_AnchoredPosition: {x: 0, y: -42.428}
   m_SizeDelta: {x: -11, y: 0.000011444092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610371122
@@ -2709,12 +2693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5b67ecd64a44f285a940ea7cc23460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assistantsGroupId: 3
   increaseBuyingMultiplierButton: {fileID: 1452253913}
-  initialPrice: 10000
-  initialMoneyPerSecond: 0
-  moneyPanel: {fileID: 744324700}
-  priceText: {fileID: 31915467}
-  moneyPerSecondFromOne: 10000
   assistantsOwnedText: {fileID: 849382397}
   assistantsButton: {fileID: 1610371123}
 --- !u!114 &1610371123
